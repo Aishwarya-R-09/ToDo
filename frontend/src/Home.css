@@ -1,0 +1,54 @@
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.item-container{
+    max-width: 70% !important;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color: #00154f;
+    /* width: 100%; */
+}
+input:focus {
+    border-color: #950740
+}
+
+a, a:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .item-container{
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .item-container{
+        max-width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .item-container{
+        max-width: 95% !important;
+    }
+}
